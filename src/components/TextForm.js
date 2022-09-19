@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import './TextForm.css'
 export default function TextForm(props) {
 
     // const [Mode, setMode] = useState({
@@ -74,14 +75,16 @@ export default function TextForm(props) {
         <div className="mb-3">
         <textarea className="form-control" value={Text} onChange={handleOnChange} id="exampleFormControlTextarea1" rows="8" placeholder='Enter text here' style={{backgroundColor:props.mode==='dark'?'#343a40':'white',color:props.mode==='dark'?'white':'black',resize:'none'}}></textarea>
         </div>
-        <button className='btn btn-primary' onClick={handleOnClickU}>Convert to uppercase</button>
-        <button className='btn btn-danger mx-2' onClick={handleOnClickL}>Convert to LowerCase</button>
-        <button className='btn btn-warning mx-2' onClick={handleOnClickClear}>Clear text</button>
-        <button className='btn btn-success mx-2' onClick={handleCopy}>Copy text</button>
-        <button className='btn btn-info mx-2' onClick={handleRemoveWhitespace}>Remove WhiteSpace</button>
+        <div className='cont'>
+        <button className='btn btn-dark' onClick={handleOnClickU} >Convert to uppercase</button>
+        <button className='btn btn-dark mx-2  butto' onClick={handleOnClickL}>Convert to LowerCase</button>
+        <button className='btn btn-dark mx-2 butto' onClick={handleOnClickClear} >Clear text</button>
+        <button className='btn btn-dark mx-2 butto' onClick={handleCopy} >Copy text</button>
+        <button className='btn btn-dark mx-2 butto' onClick={handleRemoveWhitespace} >Remove WhiteSpace</button>
         {/* <button className='btn btn-warning mx-2 my-3' onClick={toggleMode}>{modeBtn}</button> */}
-        <button className='btn btn-danger mx-2' onClick={handleOnClickExtractNumber}>Extract Number</button>
-        <button className='btn btn-dark mx-2' onClick={handleOnClickExtractMail}>Extract email</button>
+        <button className='btn btn-dark mx-2 butto' onClick={handleOnClickExtractNumber} >Extract Number</button>
+        <button className='btn btn-dark mx-2 butto' onClick={handleOnClickExtractMail} >Extract email</button>
+        </div>
 
     </div>
     <div className="container my-3">

@@ -1,0 +1,13 @@
+
+@media only screen and (max-width:600px)
+{
+    .cont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .butto{
+        margin: 5px;
+        width: 178px;
+    }
+}
