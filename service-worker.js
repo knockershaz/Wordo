@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Wordo/precache-manifest.6c46021fb72d341ced72d5b3afc05d81.js"
+  "/Wordo/precache-manifest.34482a8f7cf62c7e120375ede16a7c5d.js"
 );
 
 workbox.clientsClaim();
