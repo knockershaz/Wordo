@@ -1,7 +1,7 @@
 {
   "main.css": "/Wordo/static/css/main.296603ed.chunk.css",
-  "main.js": "/Wordo/static/js/main.ba9d6a44.chunk.js",
-  "main.js.map": "/Wordo/static/js/main.ba9d6a44.chunk.js.map",
+  "main.js": "/Wordo/static/js/main.c2719115.chunk.js",
+  "main.js.map": "/Wordo/static/js/main.c2719115.chunk.js.map",
   "static/js/1.7ab2393a.chunk.js": "/Wordo/static/js/1.7ab2393a.chunk.js",
   "static/js/1.7ab2393a.chunk.js.map": "/Wordo/static/js/1.7ab2393a.chunk.js.map",
   "static/js/2.946d8365.chunk.js": "/Wordo/static/js/2.946d8365.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/Wordo/static/js/runtime~main.40165339.js.map",
   "static/css/main.296603ed.chunk.css.map": "/Wordo/static/css/main.296603ed.chunk.css.map",
   "index.html": "/Wordo/index.html",
-  "precache-manifest.34482a8f7cf62c7e120375ede16a7c5d.js": "/Wordo/precache-manifest.34482a8f7cf62c7e120375ede16a7c5d.js",
+  "precache-manifest.8e6f31092a84622a510dc0fd4f791cda.js": "/Wordo/precache-manifest.8e6f31092a84622a510dc0fd4f791cda.js",
   "service-worker.js": "/Wordo/service-worker.js"
 }

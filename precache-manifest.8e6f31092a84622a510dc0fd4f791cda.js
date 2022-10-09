@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ba9d6a44d2a6943d2d8c",
+    "revision": "c271911583cb633f773b",
     "url": "/Wordo/static/css/main.296603ed.chunk.css"
   },
   {
-    "revision": "ba9d6a44d2a6943d2d8c",
-    "url": "/Wordo/static/js/main.ba9d6a44.chunk.js"
+    "revision": "c271911583cb633f773b",
+    "url": "/Wordo/static/js/main.c2719115.chunk.js"
   },
   {
     "revision": "7ab2393a9ad8c2b58dcd",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/Wordo/static/js/runtime~main.40165339.js"
   },
   {
-    "revision": "d1120ee061e0d3825e613bafb658668f",
+    "revision": "38e2a3782eb9b8a2c195c46ca9ec2481",
     "url": "/Wordo/index.html"
   }
 ];
