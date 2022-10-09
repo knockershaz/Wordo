@@ -12,11 +12,13 @@ export default function TextForm(props) {
     const handleOnClickU=()=>{
         let newtext=Text.toUpperCase();
         setText(newtext);
+        props.showAlert("Converted to uppercase","success")
     }
     const handleRemoveWhitespace=()=>
     {
         let newText = Text.split(/[ ]+/);
         setText(newText.join(" "))
+        props.showAlert("extra spaces removed","success")
     }
     const handleCopy=()=>
     {
@@ -24,30 +26,50 @@ export default function TextForm(props) {
         text.select();
         text.setSelectionRange(0,9999);
         navigator.clipboard.writeText(text.value);
+        props.showAlert("copied to clipboard","success")
     }
     const handleOnClickL=()=>{
         let newtext=Text.toLowerCase();
         setText(newtext);
+        props.showAlert("Converted to lowercase","success")
     }
     const handleOnClickClear=()=>{
         let newtext="";
         setText(newtext);
+        props.showAlert("text cleared","success")
     }
     const handleOnClickExtractMail=()=>{
         let reg=/\w+@gmail.com/g;
         let ans=Text.match(reg);
-        let a= ans.toString();
-        setText(a);
-        document.getElementById('preview').innerHTML=`${ans.length} emails found`
-        document.getElementById('preview').style.color='green';
+        if(ans!=null)
+        {
+            let a= ans.toString();
+            setText(a);
+            document.getElementById('preview').innerHTML=`${ans.length} emails found`
+            document.getElementById('preview').style.color='green';
+            props.showAlert("email extracted","success")
+        }
+        else
+        {
+            props.showAlert("email not found ","warning")
+        }
     }
     const handleOnClickExtractNumber=()=>{
         let regex=/[0-9]{10}/g;
         let ans2=Text.match(regex);
-        let a2= ans2.toString();
+        let a2;
+        if(ans2 != null)
+        {
+        a2= ans2.toString();
         setText(a2);
         document.getElementById('preview').innerHTML=`${ans2.length} Number found`
         document.getElementById('preview').style.color='green';
+        props.showAlert("number extracted","success")
+        }
+        else
+        {
+            props.showAlert("number not found ","warning")
+        }
     }
     const handleOnChange=(event)=>{
         setText(event.target.value);

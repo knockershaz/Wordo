@@ -6,21 +6,28 @@ const styles={
     height: '15px',
     border: '2px solid black',
     borderRadius: '24px',
-    backgroundColor: 'red',
+    backgroundColor: 'gray',
     margin: '0px 5px'
   },
   button1:{
     height: '15px',
     border: '2px solid black',
     borderRadius: '24px',
-    backgroundColor: 'blue',
+    backgroundColor: 'purple',
     margin: '0px 5px'
   },
   button2:{
     height: '15px',
     border: '2px solid black',
     borderRadius: '24px',
-    backgroundColor: 'green',
+    backgroundColor: 'red',
+    margin: '0px 5px'
+  },
+  button3:{
+    height: '15px',
+    border: '2px solid black',
+    borderRadius: '24px',
+    backgroundColor: 'white',
     margin: '0px 5px'
   }
 };
@@ -45,11 +52,13 @@ export default function Navbar(props) {
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           <button className="btn btn-outline-success" type="submit">Search</button>
         </form> */}
-        <button style={styles.button}></button>
-        <button style={styles.button1}></button>
-        <button style={styles.button2}></button>
+
       <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
-        <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+        {/* <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/> */}
+        <button style={styles.button3} onClick={props.toggleMode3}></button>
+        <button style={styles.button} onClick={props.toggleMode}></button>
+        <button style={styles.button1} onClick={props.toggleMode1}></button>
+        <button style={styles.button2} onClick={props.toggleMode2}></button>
         <label className="form-check-label" for="flexSwitchCheckDefault">Enable Modes</label>
       </div>
       </div>
