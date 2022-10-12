@@ -42,11 +42,11 @@ export default function Navbar(props) {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <Link className="nav-link" aria-current="page" to="/">Home</Link>
+            <a className="nav-link" aria-current="page" to="/">Home</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to='/about'>About</Link>
-          </li>
+          </li> */}
         </ul>
         {/* <form className="d-flex" role="search">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
@@ -59,7 +59,7 @@ export default function Navbar(props) {
         <button style={styles.button} onClick={props.toggleMode}></button>
         <button style={styles.button1} onClick={props.toggleMode1}></button>
         <button style={styles.button2} onClick={props.toggleMode2}></button>
-        <label className="form-check-label" for="flexSwitchCheckDefault">Enable Modes</label>
+        <label className="form-check-label" style={{marginRight:'15px'}} for="flexSwitchCheckDefault">Enable Modes</label>
       </div>
       </div>
     </div>
