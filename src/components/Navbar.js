@@ -5,7 +5,7 @@ const styles={
   button:{
     height: '15px',
     border: '2px solid black',
-    borderRadius: '24px',
+    borderRadius: '25px',
     backgroundColor: 'gray',
     margin: '0px 5px'
   },
