@@ -1,15 +1,15 @@
 {
-  "main.css": "/Wordo/static/css/main.39d534f7.chunk.css",
-  "main.js": "/Wordo/static/js/main.2f8eb519.chunk.js",
-  "main.js.map": "/Wordo/static/js/main.2f8eb519.chunk.js.map",
+  "main.css": "/Wordo/static/css/main.296603ed.chunk.css",
+  "main.js": "/Wordo/static/js/main.810d960b.chunk.js",
+  "main.js.map": "/Wordo/static/js/main.810d960b.chunk.js.map",
   "static/js/1.97af9aab.chunk.js": "/Wordo/static/js/1.97af9aab.chunk.js",
   "static/js/1.97af9aab.chunk.js.map": "/Wordo/static/js/1.97af9aab.chunk.js.map",
-  "static/js/2.bd37d1de.chunk.js": "/Wordo/static/js/2.bd37d1de.chunk.js",
-  "static/js/2.bd37d1de.chunk.js.map": "/Wordo/static/js/2.bd37d1de.chunk.js.map",
+  "static/js/2.946d8365.chunk.js": "/Wordo/static/js/2.946d8365.chunk.js",
+  "static/js/2.946d8365.chunk.js.map": "/Wordo/static/js/2.946d8365.chunk.js.map",
   "runtime~main.js": "/Wordo/static/js/runtime~main.85fa0c29.js",
   "runtime~main.js.map": "/Wordo/static/js/runtime~main.85fa0c29.js.map",
-  "static/css/main.39d534f7.chunk.css.map": "/Wordo/static/css/main.39d534f7.chunk.css.map",
+  "static/css/main.296603ed.chunk.css.map": "/Wordo/static/css/main.296603ed.chunk.css.map",
   "index.html": "/Wordo/index.html",
-  "precache-manifest.05403de32dece7258034ee8182130734.js": "/Wordo/precache-manifest.05403de32dece7258034ee8182130734.js",
+  "precache-manifest.2cf2acd2c101f80b2da6856a5b373460.js": "/Wordo/precache-manifest.2cf2acd2c101f80b2da6856a5b373460.js",
   "service-worker.js": "/Wordo/service-worker.js"
 }
